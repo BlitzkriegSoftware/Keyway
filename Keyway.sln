@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{BF9230B5-768D-474A-BDAA-2899FF20CA63}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		BlitzkriegSoftware.ico = BlitzkriegSoftware.ico
+		blizkrieglogo300.png = blizkrieglogo300.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StuartWilliams.Lib.DataSign", "StuartWilliams.Lib.DataSign\StuartWilliams.Lib.DataSign.csproj", "{423A8B1A-A897-4A26-A9CD-B0D057E70AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423A8B1A-A897-4A26-A9CD-B0D057E70AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423A8B1A-A897-4A26-A9CD-B0D057E70AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423A8B1A-A897-4A26-A9CD-B0D057E70AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423A8B1A-A897-4A26-A9CD-B0D057E70AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1EE8353-1C27-4238-8620-09248EA6629A}
+	EndGlobalSection
+EndGlobal

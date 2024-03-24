@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StuartWilliams.Lib.DataSign</name>
+    </assembly>
+    <members>
+        <member name="T:StuartWilliams.Lib.DataSign.SignMaker">
+            <summary>
+            Helper to make an asemmetric key for signing
+            </summary>
+        </member>
+    </members>
+</doc>

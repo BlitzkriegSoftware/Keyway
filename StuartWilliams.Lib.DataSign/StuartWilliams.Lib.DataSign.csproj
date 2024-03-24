@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <LangVersion>9.0</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <ApplicationIcon>BlitzkriegSoftware.ico</ApplicationIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>StuartWilliams.Lib.DataSign.xml</DocumentationFile>
+    <Title>Helpers to sign data</Title>
+    <Authors>Stuart Williams</Authors>
+    <Description>Helpers to sign data</Description>
+    <Copyright>(c) 2024 Stuart Williams</Copyright>
+    <PackageProjectUrl>https://github.com/blitzkriegsoftware/keyway</PackageProjectUrl>
+    <PackageIcon>blizkrieglogo300.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/blitzkriegsoftware/keyway</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Data; Signing</PackageTags>
+    <PackageReleaseNotes>1.x.x - Initial Version</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="BlitzkriegSoftware.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\blizkrieglogo300.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
